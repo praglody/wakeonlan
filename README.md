@@ -5,9 +5,8 @@ wake on lan implementation by lua
 
 # Tutorial
 
-./wakeonlan.lua [IP] [MAC]
+lua wakeonlan.lua [IP] [MAC]
 
 ```
-chomd +x wakeonlan.lua  
-./wakeonlan.lua 192.168.31.2 6C-4B-90-39-BE-CB
+lua wakeonlan.lua 192.168.31.2 6C-4B-90-39-BE-CB
 ```
