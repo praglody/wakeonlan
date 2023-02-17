@@ -1,8 +1,10 @@
-#!/usr/bin/env lua
+--[[ 
+Wake ON LAN
+--]]
 
 local socket_core = require("socket.core")
 local string = string
-local udp = socket.udp()
+local udp = socket_core.udp()
 local host = arg[1] or '192.168.31.152'
 local port = 9
 local mac = arg[2] or '6C-4B-90-39-BE-52'
